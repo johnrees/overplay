@@ -1,6 +1,6 @@
 # OverPlay
 
-Adds a play button on top of your static video thumbnails
+Overlays a play button on your static video thumbnails
 
 ## How to use
 
