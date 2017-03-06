@@ -20,5 +20,5 @@ get '/:video_id' do
   original_thumbnail.close
   original_thumbnail.unlink
 
-  send_file(temp_output, { filename: "#{params['video_id']}_with_overlay.jpg" })
+  send_file(temp_output, { filename: "#{params['video_id']}_with_overlay.jpg", disposition: "inline", type: "image/jpeg" })
 end
